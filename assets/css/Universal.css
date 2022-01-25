@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+
+/************ Pre-Loader *************/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 99;
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}
+
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  transform: translate(-50%, 50%);
+  font-weight: 500;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Sections Common
+--------------------------------------------------------------*/
+section {
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+
+.section-title {
+  padding-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  position: relative;
+  color: #173b6c;
+  letter-spacing: 1.2px;
+  font-family: 'Orelega One', cursive;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  background: #149ddd;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background: #2eafec;
+  transition: background 0.2s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out;
+  -ms-transition: background 0.2s ease-in-out;
+  -o-transition: background 0.2s ease-in-out;
+}

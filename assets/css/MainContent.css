@@ -1,0 +1,256 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about-content {
+  text-align: justify;
+  text-indent: 45px;
+  padding-bottom: 1.6rem;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.tech-name {
+  color: rgb(246, 73, 73);
+  font-weight: 600
+}
+.about .content ul li > a {
+  color: #58c0f0;
+}
+.about .icofont-rounded-right {
+  font-size: 1.2rem;
+}
+.about .content ul i {
+  font-size: 1.2rem;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about ul li:hover {
+  transform: translatex(5px);
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    margin-right: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
+  # Skills
+  --------------------------------------------------------------*/
+.skills .progress {
+  height: 50px;
+  margin-bottom: 1rem;
+  display: block;
+  background: none;
+}
+
+.skill i {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.skills .progress .skill {
+  padding: 5px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #050d18;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
+
+/*--------------------------------------------------------------
+  # Portfolio
+  --------------------------------------------------------------*/
+.project_container {
+  border-radius: 4px;
+  padding: 1rem 0;
+  width: 70%;
+  margin: 2rem auto;
+  border-top: 14px solid rgb(241, 82, 82);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.4s ease;
+}
+
+.project_container:hover {
+  transform: translatey(-8px);
+}
+
+.project_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pro_react {
+  font-size: 55px;
+  color: #149ddd;
+}
+.pro_node {
+  font-size: 55px;
+  color: rgb(59, 253, 0);
+}
+.pro_html {
+  font-size: 55px;
+  color: rgb(250, 96, 7);
+}
+.pro_javascript {
+  font-size: 55px;
+  color: rgb(224, 248, 8);
+}
+
+.project-title {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.project-detail {
+  text-align: justify;
+  padding: 0 20px;
+}
+.project-btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.github-btn,
+.demo-btn {
+  border-radius: 5px;
+  outline: none;
+  padding: 8px 12px;
+  color: white;
+  border: none;
+}
+.github-btn {
+  background-color: black;
+}
+.demo-btn {
+  background-color: rgb(2, 154, 255);
+}
+.pro-github,
+.pro-demo {
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .project_container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .github-btn,
+  .demo-btn {
+    padding: 8px 12px;
+  }
+  .project-detail {
+    padding: 0 10px;
+  }
+}
+
+/***************** Certification ******************/
+.Certification_img_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.Certification_img {
+  width: 500px;
+  height: auto;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.Certification_title {
+  color: black;
+}
+.Certification_title:after {
+  border-bottom: 3px solid rgb(246, 73, 73);
+  display: block;
+  content: ' ';
+  width: 160px;
+  margin: 0 auto;
+  padding-top: 6px;
+}
+
+.Certification_desc {
+  font-weight: 500;
+  color: rgb(70, 69, 69);
+  font-size: 13px !important;
+}
+
+@media (max-width: 550px) {
+  .Certification_img {
+    width: 350px;
+    height: auto;
+  }
+
+  .Certification_desc {
+    font-size: 14px;
+  }
+
+@media (max-width: 400px) {
+  .Certification_img {
+    width: 260px;
+    height: auto;
+  }
+
+  .Certification_title {
+    font-size: 15px;
+  }
+  .Certification_desc {
+    font-size: 11px !important;
+  }
+}
+
+/*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+.fotter {
+  background-color: black;
+  color: white;
+  padding: 18px 0;
+  text-align: center;
+  font-family: serif;
+  letter-spacing: 0.2px;
+}
+.creation {
+  margin-bottom: 8px;
+}
+.designed {
+  font-size: 18px;
+}
+.fotter-span {
+  color: rgb(253, 253, 5);
+  font-weight: 600;
+}
