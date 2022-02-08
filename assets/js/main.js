@@ -1,5 +1,3 @@
-
-
 /////////////// Pre-Loader
 $(window).on('load', function () {
   $('#status').fadeOut(); // will first fade out the loading animation
@@ -11,7 +9,7 @@ $(window).on('load', function () {
 const typedTextSpan = document.querySelector('.typed-text');
 const cursorSpan = document.querySelector('.cursor');
 
-const textArray = ['FullStack Developer at e9ine'];
+const textArray = ['Software Developer', 'Full Stack Developer'];
 const typingDelay = 100;
 const erasingDelay = 30;
 const newTextDelay = 1200;

@@ -31,9 +31,9 @@
   margin: 15px auto;
   display: block;
   width: 120px;
-  height: 145px;
+  height: 132px;
   object-fit: contain;
-  border: 8px solid #2c2f3f;
+  border-radius: 50%;
 }
 
 #header .profile .social-links a {
@@ -200,7 +200,6 @@
   border-bottom: 4px solid #149ddd;
 }
 
-
 #hero button {
   font-weight: 600;
   width: 120px;
@@ -226,10 +225,11 @@
   font-size: 17px;
 }
 
-.typing p span.cursor {
+.typing .cursor {
   display: inline-block;
   background-color: #ccc;
   width: 3px;
+  border-bottom: none !important;
   animation: blink 1s infinite;
 }
 
