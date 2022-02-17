@@ -120,6 +120,7 @@
   font-size: 55px;
   color: rgb(59, 253, 0);
 }
+
 .pro_html {
   font-size: 55px;
   color: rgb(250, 96, 7);
@@ -133,11 +134,16 @@
   text-align: center;
   margin: 1rem;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 900;
 }
+
 .project-detail {
   text-align: justify;
   padding: 0 20px;
+  font-size: 15px;
+}
+.project-detail p {
+  margin-bottom: 5px;
 }
 .project-btn {
   margin-top: 2rem;
