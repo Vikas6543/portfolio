@@ -22,7 +22,7 @@
 }
 .tech-name {
   color: rgb(246, 73, 73);
-  font-weight: 600
+  font-weight: 600;
 }
 .about .content ul li > a {
   color: #58c0f0;
@@ -62,7 +62,6 @@
   padding-right: 6px;
   font-size: 16px;
 }
-
 
 .skills .progress .skill {
   padding: 5px 0;
@@ -181,11 +180,13 @@
     padding: 8px 12px;
   }
   .project-detail {
-    padding: 0 10px;
+    padding: 0 8px;
   }
 }
 
 /***************** Certification ******************/
+.Certification {
+}
 .Certification_img_wrapper {
   display: flex;
   justify-content: center;
@@ -213,50 +214,66 @@
   font-weight: 500;
   color: rgb(70, 69, 69);
   font-size: 13px !important;
+  padding-left: 210px;
+  letter-spacing: 0.2px;
+}
+
+@media (max-width: 990px) {
+  .Certification_desc {
+    padding-left: 110px;
+  }
+}
+@media (max-width: 770px) {
+  .Certification_desc {
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 550px) {
+  .Certification_desc {
+    padding-left: 0;
+  }
   .Certification_img {
     width: 350px;
     height: auto;
   }
-
   .Certification_desc {
     font-size: 14px;
   }
 
-@media (max-width: 400px) {
-  .Certification_img {
-    width: 260px;
-    height: auto;
+  @media (max-width: 400px) {
+    .Certification_img {
+      width: 260px;
+      height: auto;
+    }
+
+    .Certification_title {
+      font-size: 15px;
+    }
+    .Certification_desc {
+      font-size: 11px !important;
+    }
   }
 
-  .Certification_title {
-    font-size: 15px;
-  }
-  .Certification_desc {
-    font-size: 11px !important;
-  }
-}
-
-/*--------------------------------------------------------------
+  /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
-.fotter {
-  background-color: black;
-  color: white;
-  padding: 18px 0;
-  text-align: center;
-  font-family: serif;
-  letter-spacing: 0.2px;
-}
-.creation {
-  margin-bottom: 8px;
-}
-.designed {
-  font-size: 18px;
-}
-.fotter-span {
-  color: rgb(253, 253, 5);
-  font-weight: 600;
+  .fotter {
+    background-color: black !important;
+    color: white;
+    padding: 18px 0;
+    text-align: center;
+    font-family: serif;
+    letter-spacing: 0.2px;
+  }
+  .creation {
+    margin-bottom: 8px;
+  }
+  .designed {
+    font-size: 18px;
+  }
+  .fotter-span {
+    color: rgb(253, 253, 5);
+    font-weight: 600;
+  }
 }
